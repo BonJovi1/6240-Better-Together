@@ -14,6 +14,8 @@ This project uses the [High-Energy Physics Theory Citation Network dataset](http
 
 You should then open the Jupyter notebook entitled **"CleanDataset.ipynb"** and follow the contained instructions in order to clean the dataset for use in our embedding generation models.
 
+Before running any of our baseline models, you will need to first create text embeddings for the paper abstracts in this dataset. To do so, simply follow the instructions in the **GenerateTextEmbeddings.ipynb** notebook.
+
 ### Baseline Models - GraphSAGE
 
 ### Baseline Models - DeepWalk, Sentence-Transformers
