@@ -12,7 +12,7 @@ This project uses the [High-Energy Physics Theory Citation Network dataset](http
 - [cit-HepTh.txt.gz](https://snap.stanford.edu/data/cit-HepTh.txt.gz)
 - [cit-HepTh-abstracts.tar.gz](https://snap.stanford.edu/data/cit-HepTh-abstracts.tar.gz)
 
-You should then open the Jupyter notebook entitled **"CleanDataset.ipynb"** and follow the contained instructions in order to clean the dataset for use in our embedding generation models.
+You should then open the Jupyter notebook entitled **CleanDataset.ipynb** and follow the contained instructions in order to clean the dataset for use in our embedding generation models.
 
 Before running any of our baseline models, you will need to first create text embeddings for the paper abstracts in this dataset. To do so, simply follow the instructions in the **GenerateTextEmbeddings.ipynb** notebook.
 
@@ -22,6 +22,10 @@ Before running any of our baseline models, you will need to first create text em
 
 ### Proposed Model - Graph and Text ConCATenated Embeddings (GAT-CAT)
 
+### Model Hyperparameters
+
+In order to replicate the results stated in our report, you should use the hyperparameters listed below:
+
 | Model | Training Epochs | Learning Rate | Optimizer | Loss Function |
 |------|------|------|------|------|
 | GraphSAGE | 100 | 0.01 | ADAM | Binary Cross-Entropy |
@@ -30,5 +34,5 @@ Before running any of our baseline models, you will need to first create text em
 | GAT-CAT | 30 | 0.0001 | ADAM | Binary Cross-Entropy | 
 
 ## Report
-For more background and details about the results of this project, please see our report or presentation (stored in this repo as **"Report19_S22.pdf"** and **Presentation19_S22.pdf** respectively).
+For more background and details about the results of this project, please see our report or presentation (stored in this repo as **Report19_S22.pdf** and **Presentation19_S22.pdf** respectively).
 
