@@ -4,6 +4,7 @@ A final project for Georgia Tech's CSE 6240 - Web Search & Text Mining
 Group 19 - Christian Clark, Abhinav Gupta, Shashank Srikanth, Suryatej Reddy Vyalla
 
 ## Introduction
+Text data is part of many popular graph datasets; however, most existing graph embedding techniques do not utilize this text effectively for link prediction. This repository contains information on how to implement a new approach called GAT-CAT (Graph And Text conCATenateded embeddings) that combines the sentence embedding and node embedding data to perform directed edge-prediction on citation networks.
 
 ## Replication Instructions
 ### Dataset
